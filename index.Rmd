@@ -1,0 +1,31 @@
+---
+output: 
+    html_document: 
+        theme:
+            bootswatch: minty
+title: "Welcome to my personal page"
+date: "<i>`r paste0('Last update: ', Sys.Date())`</i>"
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(htmltools)
+# title: "Artëm Sozontov website"
+```
+
+`r h1(align = "center", "To be filled later...")`
+
+<h5 style="text-align: center;">
+
+<i>`r paste0('Last update: ', Sys.Date())`</i>
+
+</h5>
+
+<br>
+
+<br>
+
+## Wow
+

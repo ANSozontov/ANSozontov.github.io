@@ -1,0 +1,22 @@
+name: "my-website"
+navbar:
+  title: "Artëm Sozontov"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Personal"
+      href: bio.html
+      menu: 
+        - text: "Bio"
+          href: bio.html
+        - text: "CV"
+          href: cv.html
+    - text: "Projects"
+      menu: 
+        - text: "Current"
+          href: current_projects.html
+        - text: "Finished"
+          href: finished_projects.html
+  right: 
+    - text: "Contacts"
+      href: javascript:void(0);
